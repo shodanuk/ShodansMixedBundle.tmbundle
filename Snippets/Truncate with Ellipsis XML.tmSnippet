@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?xml version="1.0"?&gt;
+&lt;bindings xmlns="http://www.mozilla.org/xbl" xmlns:xbl="http://www.mozilla.org/xbl" xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"&gt;
+	&lt;binding id="ellipsis"&gt;
+		&lt;content&gt;
+			&lt;xul:window&gt;
+				&lt;xul:description crop="end" xbl:inherits="value=xbl:text"&gt;&lt;children/&gt;&lt;/xul:description&gt;
+			&lt;/xul:window&gt;
+		&lt;/content&gt;
+	&lt;/binding&gt;
+&lt;/bindings&gt;</string>
+	<key>name</key>
+	<string>Truncate with Ellipsis XML</string>
+	<key>tabTrigger</key>
+	<string>xml:trunc</string>
+	<key>uuid</key>
+	<string>98AB0A2F-B119-4433-AF7D-043A2D4D5401</string>
+</dict>
+</plist>
